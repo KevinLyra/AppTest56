@@ -18,3 +18,7 @@ h1{
 .navbar{
   padding-bottom: 0 !important;
 }
+
+img{
+  width: 100px;
+}

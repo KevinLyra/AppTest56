@@ -31,7 +31,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Docs} />
           <Route path="/tutorial" component={Tutorials} /> 
-          <Route path="/tutorial" render={ () => (this.state.underConst.Tutorials ? (<Redirect to="/"/>) : (<Tutorials/>))}/> 
+          {/* <Route path="/tutorial" render={ () => (this.state.underConst.Tutorials ? (<Redirect to="/"/>) : (<Tutorials/>))}/>  */}
           <Route path="/community" component={Community} />
           <Route path="/users/:profileId" component={Profile}/>
           <Route component={ErrorPage} />
